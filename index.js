@@ -30,34 +30,6 @@ function renderLicenseBadge(licenses) {
     }
 }
 
-// TODO: Create a function that returns the license link from https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba, Shields.io](http://shields.io/, & https://opensource.org/licenses/
-// If there is no license, return an empty string
-// function renderLicenseLink() {
-//     if (licenses === "APM") {
-//         return "[MIT license from:](https://opensource.org/licenses/MIT)";
-//     } else if (licenses === "AUR") {
-//         return "AUR license from: (https://opensource.org/licenses/Apache-2.0)";
-//     } else if (licenses === "BSD 3-Clause") {
-//         return "BSD 3-Clause license from: (https://opensource.org/licenses/BSD-3-Clause)";
-//     } else if (licenses === "BSD 2-Clause") {
-//         return "BSD 2-Clause license from: (https://opensource.org/licenses/BSD-2-Clause)";
-//     } else if (licenses === "Eclipse Marketplace License") {
-//         return "Eclipse Marketplace License license from: (https://opensource.org/licenses/EPL-1.0)";
-//     } else if (licenses === "GNU GPL v2") {
-//         return "GPL v2 license from: (https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)";
-//     } else if (licenses === "GNU GPL v3") {
-//         return "GPL v3 license from: (https://www.gnu.org/licenses/gpl-3.0)";
-//     } else if (licenses === "IBM Public License") {
-//         return "IPL 1.0 license from: (https://opensource.org/licenses/IPL-1.0)";
-//     } else if (licenses === "Mozilla") {
-//         return "MPL 2.0 license from: (https://opensource.org/licenses/MPL-2.0)";
-//     } else if (licenses === "Unlicense") {
-//         return "Unlicense license from: (http://unlicense.org/)";
-//     } else {
-//         return " ";
-//     }
-// }
-
 // TODO: Create an array of questions for user input
 inquirer
   .prompt([
